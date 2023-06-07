@@ -1,0 +1,174 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    background: url('images/cybertruck.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+nav {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+nav ul li {
+    color: #000;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+    
+}
+nav li a{
+    color: #000;
+}
+
+.uno {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 1.5s;
+}
+.dos {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 1.5s;
+}
+.tres {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 1.5s;
+}
+.cuatro {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 1.5s;
+}
+.cinco {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 1.5s;
+}
+.seis {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 1.5s;
+}
+.siete {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 1.5s;
+} 
+.uno:hover {
+    background-color: #000;
+    color: white;
+    transition: 1s;
+    border-radius: 0px;
+    }
+.dos:hover {
+    background-color: #000;
+    color: white;
+    transition: 1s;
+    border-radius: 0px;
+}
+.tres:hover {
+    background-color: #000;
+    color: white;
+    transition: 1s;
+    border-radius: 0px;
+}
+.cuatro:hover {
+    background-color: #000;
+    color: white;
+    transition: 1s;
+    border-radius: 0px;
+}
+.cinco:hover {
+    background-color: #000;
+    color: white;
+    transition: 1s;
+    border-radius: 0px;
+}
+.seis:hover {
+    background-color: #000;
+    color: white;
+    transition: 1s;
+    border-radius: 0px;
+}
+.siete:hover {
+    background-color: #000;
+    color: white;
+    transition: 1s;
+    border-radius: 0px;
+}
+img {
+    width: 350px;
+    height: 150px;
+    margin-top: 90px;
+}
+.logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    font-size: 12px;
+}
+.ordenar {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px; 
+    background-color: transparent;
+  }
+.ul2 {
+    margin-top: 80px;
+    color: white;
+}
+.ul2 li {
+    list-style: none;
+    margin: 10px 10px;
+}
+.ul2 li a{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    padding: 2px 2rem;
+    clip-path: 
+    polygon(
+        .5em 0,
+        100% 0,
+        100% 80%,
+        80% 100%,
+        0% 100%,
+        0% 20%
+        );
+}
+.ul2 li a:hover{
+    color: rgb(243, 243, 243);
+    border: 3px solid rgb(7, 7, 7);
+    transition: 3s;
+}
